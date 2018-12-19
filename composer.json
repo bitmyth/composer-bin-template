@@ -1,0 +1,17 @@
+{
+    "name": "gsh/bin-demo",
+	 "license": "MIT",
+    "authors": [
+        {
+            "name": "gsh",
+            "email": "bitmyth@outlook.com"
+        }
+    ],
+    "require": {},
+	"bin": ["src/hi"],
+	"autoload":{
+		"psr-4":{
+			"Bitmyth\\":"src"
+		}
+	}
+}
