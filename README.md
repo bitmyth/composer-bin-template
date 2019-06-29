@@ -1,7 +1,14 @@
 # composer-bin-template
 A composer library demo project, mainly shows how to build your own composer library with a executable script.
+# Add composer global bin directory to PATH
+```bash
+export PATH='~/.composer/vendor/bin':$PATH
+```
 # install
-#### Add the following line to your composer.json
+
+Run `composer global config -e`
+
+Add the following line to your composer.json
 ```json
   "repositories": [
     {
